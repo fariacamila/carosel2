@@ -1,0 +1,148 @@
+/* 
+body {
+    background-color: #eee;
+    font-size: 16px;
+    font-family: sans-serif;
+} */
+
+.flex_one {
+    flex: 1;
+}
+
+.groups {
+    margin: 0 auto;
+    width: 780px;
+    height: auto;
+    padding: 10px;
+}
+
+.groups li {
+    position: relative;
+    list-style: none;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px 0 #0001;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+}
+
+.groups li:hover {
+    transform: scale(1.04);
+    box-shadow: 0 4px 14px 0 #0005;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.img_session {
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.img {
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.meta_session {
+    position: relative;
+    padding: 15px;
+    height: 220px;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.category {
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0075ff;
+}
+
+.per span,
+.per input {
+    font-size: 10px;
+    text-align: right;
+}
+
+.per input {
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 5px;
+    background: #0001;
+    margin: 4px;
+    overflow: hidden;
+}
+
+.per input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    box-shadow: -100px 0 0 -100px #0075ff;
+}
+
+.title {
+    height: 60px;
+    overflow: hidden;
+    font-size: 24px;
+}
+
+.desc {
+    height: 45px;
+    overflow: hidden;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.button_readMore {
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    background: #0075ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    line-height: 2.2;
+    padding: 0 20px;
+    box-shadow: 0 1px 6px 0 #0004;
+    transition: all 0.3s;
+}
+
+.button_readMore:hover {
+    box-shadow: 0 3px 8px 0 #0005;
+    right: 15px;
+    background: #063a78;
+}
+
+.views {
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .groups {
+        width: 96%;
+    }
+
+    .groupsli:houver {
+        transform: none;
+        box-shadow: 0 3px 4px 0 #0001;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .img_session {
+        float: none;
+        margin-right: 0;
+    }
+
+    .img {
+        width: 100%;
+    }
+}
